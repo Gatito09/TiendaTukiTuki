@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TukiTuki</title>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+    <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleContenido.css">
+    <link rel="stylesheet" href="fonts.css">
+</head>
+<body>
+
+    <div class="bLateral">
+        <div class="menu">
+            <ion-icon name="grid-outline"></ion-icon>
+            <ion-icon name="close-outline"></ion-icon>
+        </div>
+        
+        <div class="barra-lateral mini-barra-lateral">
+            <div>
+                <div class="nombre-pagina">
+                    <ion-icon id="logoSidebar" name="person-circle-outline"></ion-icon>
+                    <span class="oculto" style="transition: opacity 0.5s ease;">TukiTuki</span>
+                </div>
+            </div>
+            
+            <nav class="navegacion">
+                <ul>
+                    <li>
+                        <a id="inicio" class="select-menu" onclick="mostrarSeccion('subInicio')">
+                            <ion-icon name="home-outline"></ion-icon>
+                            <span class="oculto">Inicio</span>
+                    </a>
+                    </li>
+                    <li>
+                        <a id="juegos" onclick="mostrarSeccion('subJuegos')">
+                            <ion-icon name="game-controller-outline"></ion-icon>
+                            <span class="oculto">Juegos</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="serviciosStreaming">
+                            <ion-icon name="tv-outline"></ion-icon>
+                            <span class="oculto">Servicios de Streaming</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="seguidores">
+                            <ion-icon name="at-outline"></ion-icon>
+                            <span class="oculto">Like, Seguidores y Más</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a id="otrosServicios">
+                            <ion-icon name="barbell-outline"></ion-icon>
+                            <span class="oculto">Otros Servicios</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        
+            <div>
+                <div class="linea"></div>
+                
+                <div class="modo-oscuro">
+                    <div class="info">
+                        <ion-icon name="moon-outline" class="cerrado"></ion-icon>
+                        <span>Modo Oscuro</span>
+                    </div>
+                    <div class="switch">
+                        <div class="base">
+                            <div class="circulo"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="bg-overlay"></div>
+
+    <div class="content-web min-main">
+
+        <div class="portada">
+            <div class="title-portada">
+                <span>TukiTuki</span>
+                <div class="subtitle-portada">
+                    <div class="linea1"></div><span>Tu tienda Favorita</span><div class="linea2"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Inicio -->
+        <div id="subInicio" class="seccion">
+            <div class="margen-text-principal">
+                <div class="texto-principal">
+                    <h2>Términos y Condiciones</h2>
+                    <p>Leer detalladamente la información señalada en cada apartado del documento.</p>
+                    <p>Horario de atención fijo: Lunes a Viernes de 12am (mediodia) a 9pm hora Perú; y Sabados, Domingos y feriados de 1pm a 8pm.</p>
+                    <p>Podemos atrasar el inicio de atencion previo aviso por los canales de comunicació.</p>
+                    <p>Nos reservamos el derecho de modificar precios sin previo aviso, eliminar o añadir juegos por motivos externos.</p>
+                    <h4>Leer los TyC publicados en historias destacadas de IG.</h4>
+                </div>
+            </div>
+
+            <div class="parche-actualizaciones">
+                <h2>Ultimas Actualizaciones</h2>
+                <ul>
+                    <li>OFERTA PARA FREE FIRE!!</li>
+                    <li>Cambio de precio para Spotify y nuevo precio agregado (Spotify anual)</li>
+                    <li>PACKS DISPONIBLES VIA XBOX - Preguntar disponibilidad</li>
+                    <li>Se ha agregado CANVA PRO en la seción de <a href="#">OTROS SERVICIOS</a></li>
+                    <li>Recargas via XBOX para cuentas principales de Fortnite OFF de momento</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Juegos -->
+        <div id="subJuegos" class="seccion subOculto">
+
+            <div class="subFortnite">
+                <div class="subtitle"><h4>Fortnite</h4></div>
+
+                <div class="contentSubFort-1">
+                    <div class="subSecciones"><span>FORTNITE recargas CUENTAS PRINCIPALES</span></div>
+
+                    <div id="contenedorPacks1" class="content-packs">
+                        <!-- Aqui se generaran los packs -->
+                    </div>
+                </div>
+
+                <div class="separador"></div>
+
+                <div class="contentSubFort-2">
+                    <div class="subSecciones"><span>FORTNITE recargas CUENTAS PRINCIPALES</span></div>
+
+                    <div id="contenedorPacks2" class="content-packs">
+                        <!-- Aqui se generaran los packs -->
+                    </div>
+                </div>
+                <div class="separador"></div>
+
+                <div class="contentSubFort-3">
+                    <div class="subSecciones"><span>FORTNITE CREW / CLUB - CUENTAS NUEVAS DE XBOX</span></div>
+
+                    <div id="contenedorPacks3" class="content-crew">
+                        <div class="pack-crew">
+
+                            <div class="imagen-crew">
+                                <img src="https://cdn2.unrealengine.com/en-1400x380-ddc4226c68e0.png">
+                            </div>
+
+                            <div class="contenedor-scroll">
+
+                                <div class="contenedor-items">
+
+                                    <div class="item plan1">
+                                        <span>1 Mes</span>
+                                        <span>S/18.00</span>
+                                        <button>Consultar</button>
+                                    </div>
+                                    <div class="item plan2">
+                                        <span>2 Meses</span>
+                                        <span>S/32.00</span>
+                                        <button>Consultar</button>
+                                    </div>
+                                    <div class="item plan3">
+                                        <span>3 Meses</span>
+                                        <span>S/48.00</span>
+                                        <button>Consultar</button>
+                                    </div>
+                                    <div class="item plan4">
+                                        <span>4 Meses</span>
+                                        <span>S/56.00</span>
+                                        <button>Consultar</button>
+                                    </div>
+                                    <div class="item plan5">
+                                        <span>5 Meses</span>
+                                        <span>S/65.00</span>
+                                        <button>Consultar</button>
+                                    </div>
+                                    <div class="item plan6">
+                                        <span>6 Meses</span>
+                                        <span>S/78.00</span>
+                                        <button>Consultar</button>
+                                    </div>
+                                    
+                                </div>
+
+                            </div>
+                            
+                            <div class="plataforma-crew">
+                                <span>Plataforma: </span><span style="font-weight: bold;">XBOX</span>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+            <div class="subJuegosPC">
+                <div class="subtitle"><h4>Juegos PC</h4></div>
+            </div>
+            
+            <div class="subJuegosCelular">
+                <div class="subtitle"><h4>Juegos Celular</h4></div>
+            </div>
+            
+            <div class="subJuegosCelPC">
+                <div class="subtitle"><h4>Juegos Celular/PC</h4></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="itemsJuegos.js"></script>
+    <script src="script.js"></script>
+    <script src="barrLateral.js"></script>
+</body>
+</html>

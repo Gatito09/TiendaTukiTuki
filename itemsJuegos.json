@@ -1,0 +1,164 @@
+[
+    {
+        "seccion-1": [
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-ES_S28_ChillVibezPack_EGS_Launcher_1200x1600_1200x1600-ce281d1d1e3422efecd2378bc90c81fb",
+                "nombre": "Pack Vibras Tranquilas",
+                "precio": 12,
+                "plataforma": "XBOX"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-MX_S28_VoidlandsExileQuestPack_EGS_Launcher__1200x1600_1200x1600-d19033ac404a2c73e12673feea1117e2",
+                "nombre": "Pack Misiones de Nuliplano",
+                "precio": 20,
+                "plataforma": "XBOX"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-ES_S28_RogueScoutPack_EGS_Launcher__1200x1600_1200x1600-82a1fe2a1fecc129365a02934f7a23df",
+                "nombre": "Pack Salvar al Mundo Excursionista Rebelde",
+                "precio": 25,
+                "plataforma": "XBOX"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-ES_S28_GildedElitesPack_EGS_Launcher_1200x1600_1200x1600-d3607c3962a1269dcd14a74b05d0adb2",
+                "nombre": "Pack de Élite Dorada",
+                "precio": 20,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://pbs.twimg.com/media/GOtoYP7XUAAHyIL.jpg",
+                "nombre": "Pack de inicio Guardia Carmesí",
+                "precio": 30,
+                "plataforma": "XBOX"
+            },
+            {
+                "imagen": "https://jegarostore.com/cdn/shop/files/Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_Copia_de_visit_our_ma_14523926-2ee6-4dd7-8cd5-427575a9e944_grande.png?v=1729562840",
+                "nombre": "Pack de inicio Ejecución Perfecta",
+                "precio": 30,
+                "plataforma": "XBOX"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-MX_FNECO_33-11_Let_sHuntVampiresQuestPack_EGS_Portrait_1200x1600_1200x1600-d7616e398b56c21a3882cbcce22c30aa",
+                "nombre": "Pack de Misiones A Cazar Vampiros",
+                "precio": 45,
+                "plataforma": "XBOX"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-MX_FNECO_34-00_RMT_ReconRaptorPack_EGS_Portrait_1200x1600_1200x1600-3c1e27ab56bcd5ff8d38a51db31e26b4",
+                "nombre": "Pack de inicio Ave Rapaz Campal",
+                "precio": 12.5,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-ES_FNECO_31-20_CorruptedLegendsPack_EGS_1200x1600_1200x1600-1e81a15347b121698cad4f85dd20c9ae",
+                "nombre": "Pack Leyendas Corruptas",
+                "precio": 48,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-MX_FNECO_31-40_DarkReflectionsPack_EGS_1200x1600_1200x1600-46289a2972299da77f6cc06757a481e8",
+                "nombre": "Pack Reflexiones Oscuras",
+                "precio": 48,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-ES_FNECO_34-00_RMT_CuddleBuns_Pack_EGS_Portrait_1200x1600_1200x1600-36ba3c46dc900f82054f73545ba48061",
+                "nombre": "Pack de Salvar al Mundo Bollos cariñosos",
+                "precio": 48,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-MX_FNECO_34-10_RMT_GoldenTactical_EGS_Portrait_1200x1600_1200x1600-540fcb7f3a74f902c549d3cdce1fd83f",
+                "nombre": "Pack Dorado Táctico",
+                "precio": 40,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-MX_FN_MintyLegends_Store_Portrait_1200x1600-7ce227218ec223406f62f7d91ef3ed1e",
+                "nombre": "Pack de Leyendas de Menta",
+                "precio": 45,
+                "plataforma": "XBOX"
+            }
+        ],
+        "seccion-2": [
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/FNECO_32-00_VbuckStoreArtUpdate_1000_EGS_1200x1600_1200x1600-e70f8c1bfbd98a4a3d619e9527aeef8e",
+                "nombre": "1 000 V-Bucks",
+                "precio": 23,
+                "plataforma": "EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/FNECO_32-00_VbuckStoreArtUpdate_2800_EGS_1200x1600_1200x1600-380718e8fb23306b6e8a801d27880104",
+                "nombre": "2 800 vbucks",
+                "precio": 54,
+                "plataforma": "EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/FNECO_32-00_VbuckStoreArtUpdate_5000_EGS_1200x1600_1200x1600-eb3c8e7ca0803a6cb2fb374d271227f2",
+                "nombre": "5 000 vbucks",
+                "precio": 88,
+                "plataforma": "EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/FNECO_32-00_VbuckStoreArtUpdate_13500_EGS_1200x1600_1200x1600-d283e52ea33ff79da7d4be0ff86d6e52",
+                "nombre": "13 500 vbucks",
+                "precio": 210,
+                "plataforma": "EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-MX_FNECO_34-00_RMT_ReconRaptorPack_EGS_Portrait_1200x1600_1200x1600-3c1e27ab56bcd5ff8d38a51db31e26b4",
+                "nombre": "Pack de inicio Ave Rapaz Campal",
+                "precio": 12.5,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-ES_FNECO_33-10_StormWildRavenStarterPack_EGS_Portrait_1200x1600_1200x1600-30ae3c9d170cd43850a1a2ac373e1913",
+                "nombre": "Pack de inicio Cuervo Tormentoso",
+                "precio": 13,
+                "plataforma": "EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-ES_FNECO_34-00_RMT_CuddleBuns_Pack_EGS_Portrait_1200x1600_1200x1600-36ba3c46dc900f82054f73545ba48061",
+                "nombre": "Pack de Salvar al Mundo Bollos cariñosos",
+                "precio": 45,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-MX_FNECO_34-10_RMT_GoldenTactical_EGS_Portrait_1200x1600_1200x1600-540fcb7f3a74f902c549d3cdce1fd83f",
+                "nombre": "Pack Dorado Táctico",
+                "precio": 42,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-ES_FNECO_31-20_CorruptedLegendsPack_EGS_1200x1600_1200x1600-1e81a15347b121698cad4f85dd20c9ae",
+                "nombre": "Pack Leyendas Corruptas",
+                "precio": 45,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-MX_FNECO_31-40_DarkReflectionsPack_EGS_1200x1600_1200x1600-46289a2972299da77f6cc06757a481e8",
+                "nombre": "Pack Reflexiones Oscuras",
+                "precio": 45,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/ES-ES_S28_GildedElitesPack_EGS_Launcher_1200x1600_1200x1600-d3607c3962a1269dcd14a74b05d0adb2",
+                "nombre": "Pack de Élite Dorada",
+                "precio": 40,
+                "plataforma": "XBOX, EPIC GAMES"
+            },
+            {
+                "imagen": "https://4nite.site/images/webp/Pickaxe_ID_599_CavernFemale.webp",
+                "nombre": "Pico Catwoman CODE",
+                "precio": 10,
+                "plataforma": "CODIGO"
+            },
+            {
+                "imagen": "https://img.youtube.com/vi/qLOrPJ1_bjI/maxresdefault.jpg",
+                "nombre": "Harley Quinn Rebirth CODE",
+                "precio": 14,
+                "plataforma": "CODIGO"
+            }
+        ]
+    }
+]

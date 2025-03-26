@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Portada */
+
+.portada {
+    margin: 0;
+    background: linear-gradient(0.25turn, #701bb9, #2d3c8e);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+.portada .title-portada {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.portada span:nth-child(1),
+.portada span:nth-child(2) {
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    z-index: 1;
+}
+
+.portada span:nth-child(1) {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.portada span:nth-child(2) {
+    margin: 0 12px 0 12px;
+    font-size: 16px;
+}
+
+.subtitle-portada {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.portada .linea1,
+.portada .linea2 {
+    height: 2px;
+    width: 15%;
+    background: white;
+}
+
+/* Ocultar div */
+
+.subOculto {
+    display: none;
+}
+
+/* Separador */
+
+.separador {
+    width: 100%;
+    height: 1px;
+    background: var(--color-separador);
+    transition: background 0.5s ease;
+    margin-top: 30px;
+}
+
+/* Inicio */
+
+#subInicio {
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    color: var(--color-text-web);
+}
+
+#subInicio .margen-text-principal {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#subInicio .texto-principal {
+    background: var(--color-bg-box);
+    padding: 20px;
+    max-width: 100vh;
+    border-radius: 8px;
+    text-align: center;
+    transition: background 0.5s, color 0.5s;
+}
+
+#subInicio .parche-actualizaciones {
+    width: 100%;
+    padding: 0 0 0 20px;
+    margin: 20px 0 20px 0;
+    transition: color 0.5s;
+}
+
+#subInicio .parche-actualizaciones ul {
+    list-style: "✔ ";
+    margin-left: 20px;
+}
+
+#subInicio .parche-actualizaciones ul a {
+    text-decoration: none;
+    color: #248ec0;
+}
+
+/* Juegos */
+
+#subJuegos {
+    margin: 5px;
+    color: var(--color-text-web);
+}
+
+#subJuegos ion-icon {
+    margin-right: 4px;
+}
+
+#subJuegos img {
+    height: 100%;
+    width: 80px;
+    image-rendering: optimizeSpeed;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+}
+
+#subJuegos .subtitle {
+    width: 100%;
+    background: var(--color-bg-subMenu);
+    margin-top: 5px;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 5px;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+#subJuegos .subSecciones {
+    text-align: center;
+    margin: 5px 0;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: color 0.5s ease;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#subJuegos .content-packs {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+#subJuegos .packs {
+    background: var(--color-bg-producto);
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    transition: background 0.5s ease, color 0.5s ease;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    #subJuegos .packs {
+        width: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    #subJuegos .packs {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1320px) {
+    #subJuegos .packs {
+        width: 49%;
+        min-width: 300px;
+    }
+}
+
+#subJuegos .packs .contenido-pack {
+    margin-left: 15px;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow: hidden
+}
+
+#subJuegos .packs .contenido-pack .plataforma {
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+}
+
+#subJuegos .packs h5 {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    display: block;
+}
+
+#subJuegos .packs .controles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    margin-left: auto;
+}
+
+#subJuegos .packs .controles .precio {
+    font-size: 15px;
+}
+
+#subJuegos .packs button {
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 130px;
+    cursor: pointer;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: background 0.2s ease;
+}
+
+#subJuegos .packs button.btn-wsp {
+    background: #08e87b;
+    color: white;
+}
+
+#subJuegos .packs button.btn-wsp:hover {
+    background: #12b164;
+}
+
+#subJuegos .packs button.btn-detalles {
+    background: #474d9c;
+    color: white;
+}
+
+#subJuegos .packs button.btn-detalles:hover {
+    background: #5e63a3;
+}
+
+#subJuegos .contentSubFort-3 .pack-crew{
+    background: var(--color-bg-producto);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    min-width: 20%;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+#subJuegos .pack-crew .imagen-crew {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-crew-image);
+    width: 98%;
+    height: 200px;
+    margin-top: 1%;
+    border-radius: 5px;
+    transition: background 0.5s ease;
+}
+
+#subJuegos .pack-crew .imagen-crew img {
+    width: 300px;
+    height: auto;
+    filter: var(--color-text-crew-image);
+
+    transition: filter 0.5s ease;
+}
+
+#subJuegos .pack-crew .contenedor-scroll {
+    margin: 10px 0;
+    width: 98%;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+#subJuegos .pack-crew .contenedor-items {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#subJuegos .pack-crew .item {
+    background: var(--planes-bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    min-width: 200px;
+    color: #ffffff;
+    padding: 10px 0;
+    border-radius: 5px;
+
+    transition: background 0.5s ease;
+}
+
+#subJuegos .pack-crew .item button {
+    border: none;
+    margin-top: 20px;
+    background: #08e87b;
+    color: #ffffff;
+    height: 24px;
+    border-radius: 5px;
+    width: 60%;
+}

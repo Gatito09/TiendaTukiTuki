@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --color-barra-lateral: #e2e2e2;
+
+    --color-texto: #000000;
+    --color-texto-menu: #868891;
+
+    --color-menu-hover: #c9c9c9;
+    --color-menu-hover-texto: #000000;
+
+    --color-menu-select: #ffffff;
+
+    --color-boton: #000000;
+    --color-boton-texto: #ffffff;
+
+    --color-linea: #B4B4B4;
+
+    --color-switch-base: #C9CACE;
+    --color-switch-circulo: #F1F1F1;
+
+    --color-scroll: #C0C0C0;
+    --color-scroll-hover: #868686;
+
+    --color-bg-web: #ffffff;
+    --color-text-web: #000000;
+    
+    --color-bg-box: #e0e0e0;
+
+    --color-bg-subMenu: #cfcfcf;
+
+    --color-bg-producto: #e9e9e9;
+
+    --color-separador: #dadada;
+
+    --color-bg-crew-image: #888888;
+    --color-text-crew-image: invert(0%);
+
+    --planes-bg: #adadad;
+}
+
+.dark-mode {
+    --color-barra-lateral: #2C2D31;
+    
+    --color-texto: #FFFFFF;
+    --color-texto-menu: #6E6E75;
+    
+    --color-menu-hover: #3f3f3f;
+    --color-menu-hover-texto: #EEEEEE;
+    
+    --color-menu-select: #000000;
+
+    --color-boton: #FFFFFF;
+    --color-boton-texto: #000000;
+    
+    --color-linea: #5A5A5A;
+    
+    --color-switch-base: #27CD40;
+    --color-switch-circulo: #FFFFFF;
+    
+    --color-scroll: #404041;
+    --color-scroll-hover: #797979;
+    
+    --color-bg-web: #4d4d4d;
+    --color-text-web: #ffffff;
+
+    --color-bg-box: #646464;
+
+    --color-bg-subMenu: #353535;
+
+    --color-bg-producto: #646464;
+
+    --color-separador: #727272;
+
+    --color-bg-crew-image: #333333;
+    --color-text-crew-image: invert(30%);
+
+    --planes-bg: #505050;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: var(--color-bg-web);
+    transition: background 0.5s ease;
+    overflow-y: auto;
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: var(--color-scroll);
+}
+body::-webkit-scrollbar-thumb:hover {
+    background: var(--color-scroll-hover);
+}
+/* Menu */
+
+.menu {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    background: var(--color-boton);
+    color: var(--color-boton-texto);
+    right: 15px;
+    top: 15px;
+
+    z-index: 100;
+}
+
+.bLateral {
+    position: fixed;
+    height: 100%;
+    z-index: 90;
+}
+
+/* Barra Lateral */
+.barra-lateral {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+    padding: 20px 15px;
+    background: var(--color-barra-lateral);
+    user-select: none;
+    transition: width 0.5s ease, background 0.3s ease, left 0.5s ease, color 0.5s ease;
+}
+
+.mini-barra-lateral {
+    width: 80px;
+}
+
+.barra-lateral span {
+    width: 100px;
+    white-space: nowrap;
+    font-size: 18px;
+    text-align: left;
+    opacity: 1;
+    
+    transition: opacity 0.5s ease, width 0.5s ease;
+}
+
+.barra-lateral span.oculto {
+    opacity: 0;
+    width: 0;
+}
+
+/* Nombre de la Página */
+
+.barra-lateral .nombre-pagina {
+    width: 100%;
+    height: 45px;
+    color: var(--color-texto);
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.barra-lateral .nombre-pagina ion-icon {
+    min-width: 50px;
+    font-size: 40px;
+    cursor: pointer;
+
+    transition: color 0.5s ease;
+}
+
+.barra-lateral .nombre-pagina span {
+    margin-left: 5px;
+    font-size: 25px;
+
+    transition: color 0.5s ease;
+}
+
+/* Menú Navegacion */
+
+.barra-lateral .navegacion {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.barra-lateral .navegacion::-webkit-scrollbar {
+    width: 5px;
+}
+
+.barra-lateral .navegacion::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: var(--color-scroll);
+}
+
+.barra-lateral .navegacion::-webkit-scrollbar-thumb:hover {
+    background: var(--color-scroll-hover);
+}
+
+.barra-lateral .navegacion li {
+    list-style: none;
+    display: flex;
+    margin-bottom: 5px;
+}
+
+.barra-lateral .navegacion a {
+    width: 100%;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 10px;
+    color: var(--color-texto-menu);
+    cursor: pointer;
+    transition: color 0.2s ease, background 0.2s ease;
+}
+
+.barra-lateral .navegacion a:hover {
+    background: var(--color-menu-hover);
+    color: var(--color-menu-hover-texto);
+}
+
+.barra-lateral .navegacion a.select-menu {
+    background: var(--color-menu-select);
+    color: var(--color-menu-hover-texto);
+}
+
+.barra-lateral .navegacion ion-icon {
+    min-width: 50px;
+    font-size: 20px;
+}
+
+/* Linea */
+
+.barra-lateral .linea {
+    width: 100%;
+    height: 1px;
+    background: var(--color-linea);
+}
+
+/* Modo Oscuro */
+
+.barra-lateral .modo-oscuro {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barra-lateral .modo-oscuro .info {
+    width: 180px;
+    height: 45px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: var(--color-texto-menu);
+}
+
+.barra-lateral .modo-oscuro ion-icon {
+    width: 50px;
+    font-size: 20px;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.barra-lateral .modo-oscuro ion-icon.cerrado {
+    opacity: 0;
+}
+
+/* Switch */
+
+.barra-lateral .modo-oscuro .switch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50px;
+    height: 45px;
+}
+
+.barra-lateral .modo-oscuro .base {
+    cursor: pointer;
+    position: relative;
+    width: 35px;
+    height: 20px;
+    background: var(--color-switch-base);
+    border-radius: 50px;
+}
+
+.barra-lateral .modo-oscuro .circulo {
+    position: absolute;
+    width: 18px;
+    height: 90%;
+    background: var(--color-switch-circulo);
+    border-radius: 50%;
+    left: 2px;
+    top: 1px;
+    transition: left 0.5s ease;
+}
+
+.barra-lateral .modo-oscuro .circulo.prendido {
+    left: 15px;
+}
+
+/* Main */
+
+.content-web {
+    margin-left: 300px;
+    padding-bottom: 0.1px;
+
+    transition: margin-left 0.5s;
+}
+
+.content-web.min-main {
+    margin-left: 80px;
+}
+
+/* Responsive */
+
+@media (max-height: 660px) {
+    .barra-lateral .nombre-pagina {
+        margin-bottom: 5px;
+    }
+    .barra-lateral .modo-oscuro {
+        margin-bottom: 3px;
+    }
+}
+
+@media (max-width: 600px) {
+    .barra-lateral {
+        position: absolute;
+        left: -300px;
+    }
+    .barra-lateral .nombre-pagina ion-icon {
+        display: none;
+    }
+    .max-barra-lateral{
+        left: 0;
+    }
+    .menu {
+        display: flex;
+    }
+    .menu ion-icon:nth-child(2) {
+        display: none;
+    }
+    .content-web {
+        margin-left: 0;
+    }
+    .bg-overlay {
+        width: 100%;
+        height: 100%;
+        background: #000;
+        position: fixed;
+        display: none;
+        opacity: 0%;
+        transition: opacity 0.5s;
+        z-index: 49;
+    }
+    .bg-overlay.expandido {
+        opacity: 30%;
+        display: flex;
+    }
+}

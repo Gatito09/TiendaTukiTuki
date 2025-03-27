@@ -159,6 +159,116 @@
                 "precio": 14,
                 "plataforma": "CODIGO"
             }
+        ],
+        "CrewPlanesNuevos": [
+            {
+                "precio": 18
+            },
+            {
+                "precio": 32
+            },
+            {
+                "precio": 48
+            },
+            {
+                "precio": 56
+            },
+            {
+                "precio": 65
+            },
+            {
+                "precio": 78
+            }
+        ],
+        "CrewPlanesAntiguos": [
+            {
+                "precio": 38
+            }
+        ],
+        "CrewPlanesEpic": [
+            {
+                "precio": 23
+            }
+        ],
+        "Regalos": [
+            {
+                "imagen": "https://cdn2.unrealengine.com/fnbr-34-00-c6s2-discover-playlist-tiles-keyart-1920x1080-1920x1080-6877a7dfe21c.jpg",
+                "nombre": "Pase de Batalla",
+                "precio": 23,
+                "type": "product"
+            },
+            {
+                "imagen": "https://cdn2.unrealengine.com/es-fortnite-og-1920x1080-f9cdcc1d914b.jpg",
+                "nombre": "Pase de Origenes",
+                "precio": 23,
+                "type": "product"
+            },
+            {
+                "imagen": "https://cdn1.epicgames.com/offer/fn/FNSP_07_EGS_Launcher_Blades_2560x1440_2560x1440-ea5ef072857ee2b8159b4cf574dd40af",
+                "nombre": "Pase de Fortnite Festival",
+                "precio": 30,
+                "type": "product"
+            },
+            {
+                "imagen": "https://cdn2.unrealengine.com/fnjn-33-10-stormking-discoverplaylisttile-1920x1080-1920x1080-78d8550510a0.jpg",
+                "nombre": "Pase de Lego",
+                "precio": 30,
+                "type": "product"
+            },
+            {
+                "imagen": "",
+                "nombre": "100 V-Bucks",
+                "precio": 1.5,
+                "type": "gift"
+            },
+            {
+                "imagen": "",
+                "nombre": "200 V-Bucks",
+                "precio": 3,
+                "type": "gift"
+            },
+            {
+                "imagen": "",
+                "nombre": "500 V-Bucks",
+                "precio": 7.5,
+                "type": "gift"
+            },
+            {
+                "imagen": "",
+                "nombre": "800 V-Bucks",
+                "precio": 12,
+                "type": "gift"
+            },
+            {
+                "imagen": "",
+                "nombre": "1 200 V-Bucks",
+                "precio": 18,
+                "type": "gift"
+            },
+            {
+                "imagen": "",
+                "nombre": "1 500 V-Bucks",
+                "precio": 22.5,
+                "type": "gift"
+            },
+            {
+                "imagen": "",
+                "nombre": "1 800 V-Bucks",
+                "precio": 27,
+                "type": "gift"
+            },
+            {
+                "imagen": "",
+                "nombre": "1 900 V-Bucks",
+                "precio": 28.5,
+                "type": "gift"
+            },
+            {
+                "imagen": "",
+                "nombre": "2 000 V-Bucks",
+                "precio": 30,
+                "type": "gift"
+            }
         ]
     }
 ]
